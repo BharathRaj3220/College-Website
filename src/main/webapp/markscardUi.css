@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+#marksbody{
+	background-image: url("https://media.istockphoto.com/id/543214276/photo/antique-blank-postcard-with-clipping-path.webp?b=1&s=170667a&w=0&k=20&c=in2GhHJl-eLa9bToGFjKQPuhnrgHoMzX9TND_HMg-ac=");
+	width: 800px;
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: 800px 900px;
+	
+	
+}
+
+body{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #323740;
+}
+
+#vtuinfo{
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 150px;
+	width:580px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#vtulogo{
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#img1{
+	width: 100px;
+	height: 100px;
+}
+
+#vtuname{
+	line-height: 0.8;
+}
+
+#studentdetails{
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+#studentgrade{
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+
+

@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+.navbar {
+	height: 80px;
+	background-color: #408080;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#testlogo {
+	height: 50px;
+	padding-left: 15px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.dropbtn {
+	background-color: transparent;
+	color: black;
+	border: 2px solid orange;
+	border-radius:5px;
+	cursor: pointer;
+	padding: 10px 12px;
+	font-size: 16px;
+	background-color: orange;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: #4a4a4a;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+#nav1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width:550px;
+	margin-left: 50px;
+}
+
+img {
+	width: 60px;
+	height: 70px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#mainmisson1 {
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#mainmisson2 {
+	width: 1000px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+#misson {
+	width: 600px;
+	margin-left: 40px;
+}
+
+.box-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 280px
+}
+
+#misson1 {
+	width: 400px;
+	padding-left: 100px;
+}
+
+#misson2 {
+	width: 600px;
+	margin-left: 40px;
+}
+
+.box-icon1 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px
+}
+
+#misson11 {
+	width: 400px;
+	padding-left: 100px;
+}
+
+#misson3 {
+	width: 600px;
+	margin-left: 40px;
+}
+
+.box-icon2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 330px
+}
+
+#misson12 {
+	width: 400px;
+	padding-left: 100px;
+}
+
+#misson-vision {
+	width: 1000px;
+	align-items: center;
+	justify-content: space-between;
+	position: static;
+}
+
+#notifications {
+	width: 500px;
+	border: 2px solid orange;
+	border-radius: 10px;
+	height: 700px;
+	margin-right: 10px;
+	margin-top: 30px
+}
+
+#main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#chancellor {
+	width: 300px;
+	height: 300px
+}
+
+#vtu-chancellor {
+	width: 300px;
+	height: 300px
+}
+
+#chancellor-details {
+	width: 1000px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#chancellor-message {
+	width: 600px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.noti1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	line-height: 1.3;
+}
+
+.date-box{
+	width: 100px;
+	height: 70px;
+	background-color: whitesmoke;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	color:orange;
+}
